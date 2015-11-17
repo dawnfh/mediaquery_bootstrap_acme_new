@@ -1,0 +1,35 @@
+/* No greater than 900px, no less than 400px */
+
+body{
+	width: 960px;
+}
+
+li{
+	color: #B3B3B3;
+	display: inline;
+}
+
+ @media (max-width:960px){
+ 	body{
+ 		width: 100%;
+ 	}
+ 	
+ 	img{
+ 		max-width: 100%
+ 	}
+ }
+  @media (max-width:400px){
+ 	body{
+ 		width: 100%;
+ 	}
+ 	img{
+ 		max-width: 100%
+ 	}
+ }
+
+
+
+ 
+
+ 
+

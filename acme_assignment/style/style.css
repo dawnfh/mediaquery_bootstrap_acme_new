@@ -1,0 +1,56 @@
+
+@media (min-width: 1200px) {
+  li {
+    width: 11%;
+    border-color: red;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  li {
+    width: 13%;
+    border-color: green;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 999px) {
+  li {
+    width: 15%;
+    border-color: purple;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  li {
+    width: 20%;
+    border-color: gray;
+  }
+}
+
+@media (max-width: 767px) {
+  li {
+    width: 35%;
+    border-color: brown;
+  }
+}
+
+@media (max-width: 480px) {
+  li {
+    width: 80%;
+    border-color: magenta;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  border-size: 2px;
+  border-style: dotted;
+  padding: 20px;
+  margin: 10px;
+  height: 150px;
+}
